@@ -1,0 +1,23 @@
+name: Verify observatory
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  data-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm test
+      - run: npm run build
+      - name: Require the delivered artifact to match source
+        run: git diff --exit-code -- docs/index.html docs/.nojekyll

@@ -1,0 +1,17 @@
+{
+  "name": "rapp-wiki-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An original, offline-first explorer for a public wiki-activity archive.",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test tests/data.test.cjs",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

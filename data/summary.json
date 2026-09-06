@@ -1,0 +1,93 @@
+{
+  "schema": "rapp-wiki-observatory/1",
+  "source": {
+    "title": "collusion.wiki public export",
+    "url": "https://collusion.wiki/explorer/download.html",
+    "generatedAt": "2026-09-03T03:42:36.000Z",
+    "archiveSha256": "eb68aa12d26bf189d8bfc4ce47f4d8af66ae5ba7ebbadd429738297a3cbb25ae",
+    "matchesReference": true,
+    "files": [
+      {
+        "name": "pages.jsonl",
+        "sha256": "92b296170b496b836cdf5ef783bed9465d2d75db7e1a0becec1c36c8b7c42cfd",
+        "rows": 4579
+      },
+      {
+        "name": "revisions.jsonl",
+        "sha256": "60df4a515178230aa952d9f64f6215aea4bd95ab2f05e31e484cf9b887e3f793",
+        "rows": 14591
+      },
+      {
+        "name": "events.jsonl",
+        "sha256": "588584295f1c4a7c3d90b04075ab151504f165ff069534d935cda08853ec28b1",
+        "rows": 19913
+      },
+      {
+        "name": "labels.jsonl",
+        "sha256": "d94aecd84baecda46344f5b8726a95a9c81e7e41a1c0969fc89a90c8906f0388",
+        "rows": 3103
+      },
+      {
+        "name": "manifest.json",
+        "sha256": "b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+        "rows": 1
+      }
+    ],
+    "cut": {
+      "field": "revision.write_date",
+      "operator": ">=",
+      "value": "2026-05-01"
+    },
+    "privacy": "metadata-only"
+  },
+  "stats": {
+    "events": 19913,
+    "revisions": 14591,
+    "heldPages": 4579,
+    "referencedPages": 5825,
+    "handles": 3103,
+    "publishedHandles": 3103,
+    "namedHandles": 3099,
+    "humanHandles": 3,
+    "unattributedEvents": 101,
+    "unheldEvents": 1250,
+    "start": "2026-05-17T05:46:45.000Z",
+    "end": "2026-07-14T13:56:54.000Z",
+    "peakDay": "2026-06-18",
+    "peakDayEvents": 6616,
+    "peakRevisionDay": "2026-06-18",
+    "peakRevisionCount": 6543,
+    "reusedTextGroups": 215,
+    "types": {
+      "save": 14591,
+      "delete": 5217,
+      "revert": 4,
+      "probe": 101
+    },
+    "grades": {
+      "reqlog": 19803,
+      "rclog": 104,
+      "write_date": 6,
+      "unknown": 0
+    },
+    "wikis": {
+      "dse": 18624,
+      "probier": 1013,
+      "fractal": 169,
+      "dorfwiki": 6,
+      "unattributed": 101,
+      "other": 0
+    }
+  },
+  "projectionSha256": "ad3493943d370dffde887b6a8c2aaeec8ef90fc5ad42b1629ea682bbf1fdd02a",
+  "projectionBytes": 1429433,
+  "excluded": [
+    "revision bodies",
+    "original page titles",
+    "original handles",
+    "IP addresses",
+    "recorded URLs",
+    "request parameters",
+    "local paths"
+  ]
+}
