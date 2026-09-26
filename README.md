@@ -1,5 +1,9 @@
 # RAPP Wiki Observatory
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/rapp-wiki-observatory.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/rapp-wiki-observatory.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 [Open the observatory](https://kody-w.github.io/rapp-wiki-observatory/) | [Source repository](https://github.com/kody-w/rapp-wiki-observatory) | [Methods](METHODS.md)
 
 An original, offline-first evidence explorer inspired by [collusion.wiki](https://collusion.wiki/), built from the archive supplied by the operator. It is a separate project, not an AIBAST feature or an addition to the Omarchy workbench.
